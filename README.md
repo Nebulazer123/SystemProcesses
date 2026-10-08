@@ -2,7 +2,11 @@
 
 System Processes is a native macOS menu bar app for inspecting apps and background tasks. See what uses memory, review who owns each task and what it has been doing, then decide whether to stop it.
 
-## Install from source
+## Install
+
+**Apple Silicon:** [Download System Processes 1.0.0](https://github.com/Nebulazer123/SystemProcesses/releases/download/v1.0.0/SystemProcesses-1.0.0-macOS-arm64.zip), unzip it, move **SystemProcesses.app** to **Applications**, and open it. This build is ad-hoc signed, not notarized; if macOS blocks the first launch, follow [Apple’s first-launch instructions](https://support.apple.com/102445).
+
+**Build from source:**
 
 Requires macOS 13 or later and an Apple Swift toolchain with the macOS SDK. The build targets your Mac's current architecture. If Swift is not available, install Apple's Command Line Tools with `xcode-select --install`.
 
