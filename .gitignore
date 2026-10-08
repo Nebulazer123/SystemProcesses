@@ -1,0 +1,10 @@
+# Generated app contents; keep the source bundle manifest.
+SystemProcesses.app/*
+!SystemProcesses.app/Contents/
+SystemProcesses.app/Contents/*
+!SystemProcesses.app/Contents/Info.plist
+*.zip
+.DS_Store
+.work/
+.codex/
+__pycache__/

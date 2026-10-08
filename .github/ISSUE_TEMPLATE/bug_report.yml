@@ -1,0 +1,31 @@
+name: Bug report
+description: Report a reproducible app or setup problem.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Please remove keys, private paths, and personal process details from screenshots or logs. Report security vulnerabilities privately using the Security tab."
+  - type: input
+    id: version
+    attributes:
+      label: App and macOS versions
+      placeholder: "System Processes 1.0.0, macOS 26"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open the menu…"
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Optional screenshot or sanitized error

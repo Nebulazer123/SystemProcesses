@@ -1,0 +1,11 @@
+description: >
+  Inspect macOS process ownership and resource history in a compact popup, then choose whether to stop a process.
+topics:
+  - macos
+  - process-manager
+  - system-monitor
+  - memory-pressure
+  - macos-menu-bar
+  - swift
+  - appkit
+homepage: ""
